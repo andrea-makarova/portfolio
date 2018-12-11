@@ -1,0 +1,125 @@
+
+img.logo {
+    width: 200px;
+    height: auto;
+    padding-top: 80px;
+}
+
+* {
+    font-family: helvetica neue;
+}
+
+h1 {
+    width: 300px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+
+.white {
+    width: 300px;
+    color: white;
+}
+
+.red {
+    color: #ea5045;
+    padding-top: 80px;
+}
+
+p {
+    width: 450px;
+    line-height: 20px;
+}
+
+img.people {
+    width: 400px;
+    height: auto;
+    padding-left: 100px;
+
+}
+
+.line {
+    border-bottom: 3px solid black;
+    width: 30px;
+
+}
+
+#btn1 {
+    background-color: #ea5045;
+    width: 350px;
+    height: 80px
+    top: 620px;
+    left: 0;
+    border: none;
+
+
+
+}
+#btn2 {
+    background-color: #ea5045;
+    width: 200px;
+    height: 60px;
+    border: none;
+    position: absolute;
+left: 268px;
+}
+
+button:hover {
+    opacity: 0.95;
+}
+
+
+input {
+display: none;
+}
+
+label{
+   -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 15px 30px 15px;
+    color: #fff;
+    background-color: #223249;
+  }
+
+label:hover {
+    opacity: 0.9;
+}
+
+
+input[type=checkbox]:checked + label {
+  background-color: #ea5045;
+  font-style: normal;
+}
+$bkBtnSize: 52px;
+.bk-btn {
+  height: $bkBtnSize;
+  width: $bkBtnSize;
+  background-color: black;
+  border-radius: 50%;
+}
+  .triangle {
+    position: relative;
+    top: $bkBtnSize*0.25;
+    left: $bkBtnSize*0.2;
+    width: 0;
+    height: 0;
+    border-top: $bkBtnSize*0.25 solid transparent;
+    border-bottom: $bkBtnSize*0.25 solid transparent;
+    border-right: $bkBtnSize*0.25 solid white;
+  }
+  .bar {
+    position: relative;
+    background-color: white;
+    height: $bkBtnSize*0.15;
+    width: $bkBtnSize*0.25;
+    top: $bkBtnSize*-0.07;
+    left: $bkB;
+    }
