@@ -4,49 +4,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="fields" content="fields">
-    <title>Home</title>
+    <meta name="skills" content="skills">
+    <title>Skills</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2 class="notification">!!! SELECT DIGITAL !!!</h2>
+    <h2 class="notification">!!! SELECT #PHOTOGRAPHY, #VIDEO, #ILLUSTRATOR !!! </h2>
+    <button onclick="btn1()" id="back">
+        <img id="arrow" src="2000px-Arrow_west.svg.png" alt="arrow">
 
-    <div class="bk-btn"><div class="triangle"></div><div class="bar"></div></div>
-
-    <h2>SKILLS</h2>
+    </button>
+    <h2 class="choose">SKILLS</h2>
     <div class="line"></div>
     <p>WHICH SKILLS ARE YOU <br>LOOKING FOR?</p>
-        <form class="modal-content">
+    <form class="modal-content">
 
-        <input  type="checkbox" id="ossm1" name="ossm"> <label for="ossm1">#PHOTOGRAPHY
-      </label>
-            <br>
+        <input class="box" type="checkbox" id="ossm1" name="ossm"> <label for="ossm1">#PHOTOGRAPHY
+        </label>
+        <br>
 
-        <input  type="checkbox" id="ossm2" name="ossm"> <label for="ossm2">#VIDEO
-      </label>
-            <br>
+        <input class="box" type="checkbox" id="ossm2" name="ossm"> <label for="ossm2">#VIDEO
+        </label>
+        <br>
 
-        <input  type="checkbox" id="ossm3" name="ossm"> <label for="ossm3">#GRAPHICS
-      </label>
-            <br>
+        <input class="box" type="checkbox" id="ossm3" name="ossm"> <label for="ossm3">#GRAPHICS
+        </label>
+        <br>
 
-        <input  type="checkbox" id="ossm4" name="ossm"> <label for="ossm4">#JAVASCRIPT
-      </label>
-            <br>
-          <input  type="checkbox" id="ossm5" name="ossm"> <label for="ossm5">#INDESIGN
-      </label>
+        <input class="box" type="checkbox" id="ossm4" name="ossm"> <label for="ossm4">#JAVASCRIPT
+        </label>
+        <br>
+        <input class="box" type="checkbox" id="ossm5" name="ossm"> <label for="ossm5">#INDESIGN
+        </label>
+
+        <br>
+        <input class="box" type="checkbox" id="ossm6" name="ossm"> <label for="ossm6">#ILLUSTRATOR
+        </label>
+        <br> <input class="box" type="checkbox" id="ossm7" name="ossm"> <label for="ossm7">ALL
+        </label>
     </form>
     <br>
-        <input  type="checkbox" id="ossm6" name="ossm"> <label for="ossm6">#ILLUSTRATOR
-      </label>
-    <br>    <input  type="checkbox" id="ossm7" name="ossm"> <label for="ossm7">ALL
-      </label>
+    <img src="dots2.png" id="dots" alt="dots">
+    <button onclick="btn3()" id="btn3">
+        <h1 class="white">NEXT</h1>
+    </button>
 
-    <br>
-     <button id="btn2"> <h1 class="white">NEXT</h1></button>
-
-    <script src="portfolio.js"></script>
+    <script src="portfolio.js">
+    </script>
 </body>
 
 
